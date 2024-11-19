@@ -22,7 +22,7 @@ if __name__ == "__main__":
     root.title("Weather App")
     root.geometry('400x400')
 
-    root.config(bg='#243642')
+    root.config(bg='#081226')
 
     # Button to trigger the HTTPS call
     btn = Button(root, text="Get Weather", command=main.get_weather())
